@@ -32,12 +32,12 @@ Gem::Specification.new do | spec |
 #    'documentation_uri' => 'https://github.com/EndlessInternational/intelligence/wiki'
   }
 
-  spec.required_ruby_version = '>= 3.0'
+  spec.required_ruby_version = '>= 1.8'
   spec.files         = Dir[ "lib/**/*.rb", "LICENSE", "README.md", "intelligence.gemspec" ]
   spec.require_paths = [ "lib" ]
 
   spec.add_runtime_dependency 'faraday', '> 0'
-  spec.add_runtime_dependency 'dynamicschema', '~> 2.0'
+  spec.add_runtime_dependency 'dynamicschema', '> 0'
   spec.add_runtime_dependency 'mime-types', '> 1'
   spec.add_runtime_dependency 'json-repair', '~> 0.2'
 
