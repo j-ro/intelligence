@@ -36,7 +36,7 @@ Gem::Specification.new do | spec |
   spec.files         = Dir[ "lib/**/*.rb", "LICENSE", "README.md", "intelligence.gemspec" ]
   spec.require_paths = [ "lib" ]
 
-  spec.add_runtime_dependency 'faraday', '~> 2.7'
+  spec.add_runtime_dependency 'faraday', '> 0'
   spec.add_runtime_dependency 'dynamicschema', '~> 2.0'
   spec.add_runtime_dependency 'mime-types', '~> 3.6'
   spec.add_runtime_dependency 'json-repair', '~> 0.2'
